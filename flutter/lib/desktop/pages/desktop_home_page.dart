@@ -883,9 +883,9 @@ void setPasswordDialog({VoidCallback? notEmptyCallback}) async {
   var errMsg1 = "";
   final RxString rxPass = pw.trim().obs;
   final rules = [
-    DigitValidationRule(),
-    UppercaseValidationRule(),
-    LowercaseValidationRule(),
+    // DigitValidationRule(),
+    // UppercaseValidationRule(),
+    // LowercaseValidationRule(),
     // SpecialCharacterValidationRule(),
     MinCharactersValidationRule(8),
   ];
